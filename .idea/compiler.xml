@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="15" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="freshworks.app" target="15" />
+      <module name="freshworks.data" target="15" />
+      <module name="freshworks.presentation" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>

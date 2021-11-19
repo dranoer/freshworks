@@ -1,4 +1,4 @@
-package com.dranoer.freshworks.ui.favorite
+package com.dranoer.favorite
 
 import androidx.lifecycle.ViewModel
 

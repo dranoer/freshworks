@@ -1,4 +1,4 @@
-package com.dranoer.freshworks.ui.main
+package com.dranoer.main
 
 import androidx.lifecycle.ViewModel
 

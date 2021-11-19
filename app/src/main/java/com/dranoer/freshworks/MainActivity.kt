@@ -3,7 +3,7 @@ package com.dranoer.freshworks
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.dranoer.freshworks.databinding.ActivityMainBinding
-import com.dranoer.freshworks.ui.ViewPagerAdapter
+import com.dranoer.freshworks.presentation.ui.ViewPagerAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 
 val tabArray = arrayOf(
@@ -12,7 +12,9 @@ val tabArray = arrayOf(
 )
 
 class MainActivity : AppCompatActivity() {
+
     lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)

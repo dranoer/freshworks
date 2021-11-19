@@ -1,11 +1,11 @@
-package com.dranoer.freshworks.ui.main
+package com.dranoer.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.dranoer.freshworks.databinding.FragmentMainBinding
+import com.dranoer.presentation.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
     private var _binding: FragmentMainBinding? = null

@@ -1,11 +1,11 @@
-package com.dranoer.freshworks.ui
+package com.dranoer.freshworks.presentation.ui
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.dranoer.freshworks.ui.favorite.FavFragment
-import com.dranoer.freshworks.ui.main.MainFragment
+import com.dranoer.favorite.FavFragment
+import com.dranoer.main.MainFragment
 
 private const val NUM_TABS = 2
 
